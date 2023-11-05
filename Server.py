@@ -38,5 +38,5 @@ def start():        # A function to let our server start listening to connection
         thread.start()
         print(f"\n[ACTIVE CONNECTIONS] {threading.active_count() - 1}")
 
-print("[STARTING] server is starting...")
+print("[STARTING] server is starting... ")
 start()

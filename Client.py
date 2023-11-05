@@ -19,7 +19,9 @@ def send(msg):
     client.send(message)
     print(client.recv(2048).decode(FORMAT))
 
-Message = input("Enter what you want to send to server")
+Message = input("Enter a message you wish to send to server: ")
 send(Message)
+Message2 = input("Enter any other message you wish to send to server: ")
+send(Message2)
 
 send(DISCONNECT_MESSAGE)
