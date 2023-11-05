@@ -22,5 +22,6 @@ def send(msg):
 Message = input("Enter a message you wish to send to server: ")
 send(Message)
 Message2 = input("Enter any other message you wish to send to server")
+send(Message2)
 
 send(DISCONNECT_MESSAGE)
